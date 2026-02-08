@@ -17,3 +17,12 @@ function demo() {
 }
 
 demo();
+
+// Not block scoped
+
+if (true) {
+    var city = "vadalur";
+
+}
+
+console.log(city);
