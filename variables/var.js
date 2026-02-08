@@ -26,3 +26,12 @@ if (true) {
 }
 
 console.log(city);
+
+// Hoisting 
+
+console.log(x);
+var x = 10; // undefined
+
+var y;
+console.log(y);
+y = 11;
