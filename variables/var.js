@@ -40,3 +40,9 @@ y = 11;
 var a = 10; b = 20, c =30;
 
 console.log(a, b, c);
+
+// Update value
+var score = 50;
+score = 75;
+
+console.log(score);
