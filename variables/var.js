@@ -56,3 +56,20 @@ function greet() {
 }
 
 greet();
+
+// var inside loop
+
+for (var i = 1; i <= 3; i++) {
+    console.log(i);
+    
+    
+}
+
+console.log(i);
+
+// var vs block
+
+{
+    var e = 100;
+}
+console.log(e);
