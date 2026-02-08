@@ -46,3 +46,13 @@ var score = 50;
 score = 75;
 
 console.log(score);
+
+// Global scope 
+var msg = "Welcome";
+
+function greet() {
+    console.log(msg);
+    
+}
+
+greet();
