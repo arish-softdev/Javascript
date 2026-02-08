@@ -9,6 +9,7 @@ var age = 19;
 
 console.log(age);
 
+// Function Scope
 function demo() {
     var msg = "Hello";
     console.log(msg);
