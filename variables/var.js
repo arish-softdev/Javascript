@@ -35,3 +35,8 @@ var x = 10; // undefined
 var y;
 console.log(y);
 y = 11;
+
+// Multiple variables
+var a = 10; b = 20, c =30;
+
+console.log(a, b, c);
